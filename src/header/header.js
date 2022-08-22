@@ -1,6 +1,5 @@
 import "./header.css";
 import Fade from "react-reveal/Fade";
-import { Component } from "react";
 
 export default function Header(props) {
   var depName = props.resumeInfo.depShortName;
