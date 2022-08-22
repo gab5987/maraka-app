@@ -1,0 +1,19 @@
+.header-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background: url("./headerbackground.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-container {
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+
+  flex-direction: column;
+}
