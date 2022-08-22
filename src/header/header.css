@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   height: 500px;
-  background: url("./headerbackground.jpg");
+  background: url("https://cf.bstatic.com/xdata/images/hotel/max1024x768/127523807.jpg?k=fe8fac0351c2a78ffaab61ae7c0cc2ba1f51c7d158ab14673aee282708ed4eb8&o=&hp=1");
   background-size: cover;
   display: flex;
   align-items: center;
@@ -12,8 +12,21 @@
 .heading-container {
   display: flex;
   align-items: center;
-
   text-align: center;
-
   flex-direction: column;
+}
+
+.book-button {
+  margin-top: 2rem;
+  font-size: 15px;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  background-color: #71c9ce;
+  border-radius: 5px;
+}
+
+.book-button:hover {
+  color: #ffffff;
+  opacity: 90%;
 }

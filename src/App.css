@@ -1,14 +1,1 @@
-.book-button {
-  margin-top: 2rem;
-  font-size: 15px;
-  text-decoration: none;
-  color: #ffffff;
-  padding: 0.5rem 1rem;
-  background-color: #71c9ce;
-  border-radius: 5px;
-}
 
-.book-button:hover {
-  color: #ffffff;
-  opacity: 90%;
-}
