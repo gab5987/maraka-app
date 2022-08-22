@@ -11,8 +11,8 @@ import {
 	NavMenu,
 	NavBtn
 } from './NavbarElements';
+
 import {Twirl as Hamburger} from 'hamburger-react'
-import HamburgerMenu from './hamburger/hamburgerMenu'
 import Row1 from "./rows/row1/row1";
 
 const Header = React.lazy(() => import("./header/header.js"));
@@ -56,19 +56,8 @@ class App extends Component {
 
 				<MobileView>
 					<Hamburger onClick={() => this.state.hamburgerState = !this.state.hamburgerState } />
-					<HamburgerMenu isOpen = {this.state.hamburgerState}/>
 				</MobileView>
-
-				<Suspense
-        fallback={
-          <Spinner
-            animation="border"
-            variant="primary"
-            className="my-spinner"
-          />
-        }
-      	></Suspense>
-
+				
         <Header 
           resumeInfo = {appData.info} 
           resumeLangDeps = {this.state.language}
