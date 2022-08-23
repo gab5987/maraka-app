@@ -16,11 +16,14 @@ import Row1 from "./rows/row1/row1";
 import Location from "./rows/row2/row2";
 import Footer from "./footer/footer";
 
+import logo from "./app_data/navIcon.jpeg";
+
 const Header = React.lazy(() => import("./header/header.js"));
 
 var appData = require('./app_data/shared_data.json');
 var ptBR = require('./app_data/res_primaryLanguage.json');
 var enUS = require('./app_data/res_secondaryLanguage.json');
+
 
 class App extends Component {
 	constructor() {
@@ -38,23 +41,15 @@ class App extends Component {
     return (
       <div className="App">
 				<BrowserView>
-					<Router>
-						<Nav>
-							<Bars />
-							<NavMenu>
-								<NavLink to='home' activeStyle> Home </NavLink>
-							</NavMenu>
-							<NavBtn>
-									<a onClick={this.changeLanguagePT} className="lang-button">pt-BR 🇧🇷 </a>
-									<a onClick={this.changeLanguageEN} className="lang-button">en-US 🇺🇸 </a>
-							</NavBtn>
-						</Nav>
-						<Routes>
-							<Route path='#Header' component={Header}/>
-						</Routes>
-					</Router>
+					<Nav>
+						<img src={logo} alt="Logo" />
+						<Bars />
+						<NavBtn>
+								<a onClick={this.changeLanguagePT} className="lang-button">pt-BR 🇧🇷 </a>
+								<a onClick={this.changeLanguageEN} className="lang-button">en-US 🇺🇸 </a>
+						</NavBtn>
+					</Nav>
 				</BrowserView>
-
 				<MobileView>
 					<Hamburger onClick={() => this.state.hamburgerState = !this.state.hamburgerState } />
 				</MobileView>
