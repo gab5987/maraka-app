@@ -32,7 +32,6 @@ export default function Row1() {
 
   return (
     <div className="row1-container">
-      <Fade bottom when={reveal}>
         <div className="column-row1-column1">
           <h1>Lorem Ipsum</h1>
           <p>
@@ -44,7 +43,6 @@ export default function Row1() {
             </a>
           </div>
         </div>
-      </Fade>
       <div className="column-row1-column2">
         <Fade left cascade when={revealimgs}>
           <div className="img-column1">
