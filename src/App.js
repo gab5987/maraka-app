@@ -14,6 +14,7 @@ import {
 import {Twirl as Hamburger} from 'hamburger-react'
 import Row1 from "./rows/row1/row1";
 import Location from "./rows/row2/row2";
+import Services from "./rows/row3/row3";
 import Footer from "./footer/footer";
 
 import logo from "./app_data/navIcon.jpeg";
@@ -59,6 +60,7 @@ class App extends Component {
           resumeLangDeps = {this.state.language}
         />
 				<Row1/>
+				<Services/>
 				<Location
 					resumeLangDeps = {this.state.language.location}
 				/>
