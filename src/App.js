@@ -64,7 +64,9 @@ class App extends Component {
           resumeLangDeps = {this.state.language}
         />
 				<Row1/>
-				<Location/>
+				<Location
+					resumeLangDeps = {this.state.language.location}
+				/>
 				<Footer/>
       </div>
     );

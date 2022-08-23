@@ -1,11 +1,12 @@
 import "./row2.css";
 import React from "react";
 
-export default function Location(){
+export default function Location(props){
   return (
     <div className="row2-container">
         <div className="column-row2-column1">
-            <h1>Lorem Ipsum</h1>
+            <h1> {props.resumeLangDeps.pageName} </h1>
+            <p> {props.resumeLangDeps.description} </p>
         </div>
         <div className="column-row2-column2">
             <iframe
