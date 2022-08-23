@@ -1,8 +1,7 @@
 import "./App.css";
-import React, { Component, Suspense } from "react";
+import React, { Component } from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { BrowserView, MobileView } from 'react-device-detect';
-import Spinner from "react-bootstrap/Spinner";
 
 import {
 	Nav,
