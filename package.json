@@ -2,7 +2,7 @@
   "name": "maraka-app",
   "version": "0.1.0",
   "engines": {
-    "node": "18.7.0",
+    "node": "16.0.0",
     "npm": "8.15.0"
   },
   "private": true,
