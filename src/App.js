@@ -13,6 +13,7 @@ import {
 
 import {Twirl as Hamburger} from 'hamburger-react'
 import Row1 from "./rows/row1/row1";
+import Footer from "./footer/footer";
 
 const Header = React.lazy(() => import("./header/header.js"));
 
@@ -62,6 +63,7 @@ class App extends Component {
           resumeLangDeps = {this.state.language}
         />
 				<Row1/>
+				<Footer/>
       </div>
     );
   }
