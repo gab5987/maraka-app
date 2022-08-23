@@ -62,7 +62,9 @@ class App extends Component {
 				<Location
 					resumeLangDeps = {this.state.language.location}
 				/>
-				<Footer/>
+				<Footer
+					resumeSocialMedia = {appData.socialMedia}
+				/>
       </div>
     );
   }

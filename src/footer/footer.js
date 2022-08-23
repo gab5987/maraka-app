@@ -1,16 +1,17 @@
 import "./footer.css";
 
 import {
-  FaLinkedinIn,
-  FaTwitter,
   FaFacebook,
   FaInstagram,
   FaGithub,
+  FaTripadvisor,
+  FaAirbnb,
 } from "react-icons/fa";
+import { TbBrandBooking } from "react-icons/tb";
 
-export default function Footer() {
+export default function Footer(props) {
   return (
-    <div>
+    <div> <bookingIcon />
       <div className="footer">
         <div className="mystacks">
           <div className="my-stack useful-links">
@@ -30,10 +31,11 @@ export default function Footer() {
           </div>
         </div>
         <div className="social-media">
-          <FaFacebook/>
-          <FaInstagram/>
-          <FaLinkedinIn/>
-          <FaTwitter/>
+          <a href={props.resumeSocialMedia.facebook}> <FaFacebook /> </a>
+          <a href={props.resumeSocialMedia.instagram}> <FaInstagram/> </a>
+          <a href={props.resumeSocialMedia.tripAdvisor}> <FaTripadvisor /> </a>
+          <a href={props.resumeSocialMedia.airbnb}> <FaAirbnb /> </a>
+          <a href={props.resumeSocialMedia.bookingCom}> <TbBrandBooking /> </a>
         </div>
       </div>
       <div className="copyright">

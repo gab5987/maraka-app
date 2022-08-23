@@ -1,5 +1,12 @@
 {
     "info":{
         "depShortName": "Pousada Maraká"
+    },
+    "socialMedia": {
+        "facebook": "https://www.facebook.com/pousadamaraka/",
+        "instagram": "https://www.instagram.com/pousadamaraka/",
+        "bookingCom": "https://www.booking.com/Share-K2qo0A",
+        "airbnb": "https://www.airbnb.com/rooms/24412652?guests=1&adults=1&s=67&unique_share_id=3fbbe540-8e2a-41f0-ba8f-79c8f0ff4dfd",
+        "tripAdvisor": "https://www.tripadvisor.com/Hotel_Review-g303576-d5231012-Reviews-Pousada_Maraka-Florianopolis_State_of_Santa_Catarina.html?m=19905"
     }
 }
