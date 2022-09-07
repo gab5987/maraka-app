@@ -1,6 +1,5 @@
 import "./App.css";
 import React, { Component } from "react";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { BrowserView, MobileView } from 'react-device-detect';
 
 import {
@@ -30,7 +29,7 @@ class App extends Component {
 	constructor() {
     super();
     this.state = {
-			hamburgerState: false,
+	  hamburgerState: false,
       language: ptBR
     };
   }
@@ -60,7 +59,7 @@ class App extends Component {
           resumeLangDeps = {this.state.language}
         />
 				<Row1/>
-				<Services/>
+				<Services resumeInfo={this.state.language.services}/>
 				<Location
 					resumeLangDeps = {this.state.language.location}
 				/>

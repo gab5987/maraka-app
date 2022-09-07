@@ -3,13 +3,13 @@
     height: 450px;
     background-color: #cbf1f5;
     display: flex;
-    align-items: center;
 }
 
-.row3-title div {
-    width: 5rem;
-    height: 5px;
-    margin: 0 auto;
+.row3-title  {
+    text-align: center;
+    padding-top: 2.5%;
+    margin-left: auto;
+    margin-right: auto;
     background: var(--primaryColor);
 }
 .column-row3 {

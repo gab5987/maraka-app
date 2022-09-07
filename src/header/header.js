@@ -7,7 +7,6 @@ export default function Header(props) {
   var bookButton = props.resumeLangDeps.bookButton;
 
   return (
-    <Fade>
       <div className="header-container">
         <BrowserView>
           <div className="heading-container">
@@ -24,6 +23,5 @@ export default function Header(props) {
           </div>
         </MobileView>
       </div>
-    </Fade>
   );
 }
