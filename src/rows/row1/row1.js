@@ -6,7 +6,8 @@ const photo1 = "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/48/18
 const photo2 = "https://cf.bstatic.com/xdata/images/hotel/max1024x768/345694455.jpg?k=3c6982453e50b21a004fbfc743547aca32ea64e8e81ea701c9dcedd113329238&o=&hp=1";
 const photo3 = "https://cf.bstatic.com/xdata/images/hotel/max1024x768/345694569.jpg?k=712a3b5bc4c38ecab544d4c73e3b49d4d3d361052acadb26611f551b4eba277a&o=&hp=1";
 
-export default function Row1() {
+export default function Row1(props) {
+  const resume = props.resumeInfo;
   const [reveal, setReveal] = useState(false);
   const [revealimgs, setRevealImgs] = useState(false);
 
@@ -33,10 +34,8 @@ export default function Row1() {
   return (
     <div className="row1-container">
         <div className="column-row1-column1">
-          <h1>Lorem Ipsum</h1>
-          <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-          </p>
+          <h1> { resume.pageName } </h1> <br/>
+          <p> { resume.description } </p> <br/>
           <div className="button-wrapper">
             <a href="#" className="book-button">
               Se pa um botão?

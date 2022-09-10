@@ -61,7 +61,7 @@ class App extends Component {
           resumeInfo = {appData.info} 
           resumeLangDeps = {this.state.language}
         />
-				<Row1/>
+				<Row1 resumeInfo={this.state.language.resume}/>
 				<Services resumeInfo={this.state.language.services}/>
 				<Location
 					resumeLangDeps = {this.state.language.location}
