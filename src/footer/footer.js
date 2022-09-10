@@ -15,9 +15,9 @@ export default function Footer(props) {
       <div className="footer">
         <div className="mystacks">
           <div className="my-stack useful-links">
-            <h1>Lorem Ipsum</h1>
-            <a>Special Promo</a>
-            <a>Affiliete Links</a>
+            <h1>Sobre Florianópolis</h1>
+            <a href={props.resumeInfo.footNotes.tripAdvisorWhatToDo} target="_blank"> Blog TripAdvisor </a>
+            <a href={props.resumeInfo.footNotes.googleTravel} target="_blank">Google travel</a>
           </div>
           <div className="my-stack support">
             <h1>Lorem Ipsum</h1>
@@ -31,11 +31,11 @@ export default function Footer(props) {
           </div>
         </div>
         <div className="social-media">
-          <a href={props.resumeSocialMedia.facebook}> <FaFacebook /> </a>
-          <a href={props.resumeSocialMedia.instagram}> <FaInstagram/> </a>
-          <a href={props.resumeSocialMedia.tripAdvisor}> <FaTripadvisor /> </a>
-          <a href={props.resumeSocialMedia.airbnb}> <FaAirbnb /> </a>
-          <a href={props.resumeSocialMedia.bookingCom}> <TbBrandBooking /> </a>
+          <a href={props.resumeInfo.socialMedia.facebook}> <FaFacebook /> </a>
+          <a href={props.resumeInfo.socialMedia.instagram}> <FaInstagram/> </a>
+          <a href={props.resumeInfo.socialMedia.tripAdvisor}> <FaTripadvisor /> </a>
+          <a href={props.resumeInfo.socialMedia.airbnb}> <FaAirbnb /> </a>
+          <a href={props.resumeInfo.socialMedia.bookingCom}> <TbBrandBooking /> </a>
         </div>
       </div>
       <div className="copyright">
