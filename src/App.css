@@ -1,9 +1,23 @@
 .lang-button {
-    margin-inline: 1px;
+    margin-inline: 10px;
     font-size: 15px;
     text-decoration: none;
     color: #ffffff;
     padding: 0.5rem 1rem;
+    background-color: #71c9ce;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .lang-button-mobile {
+    margin-inline: 1px;
+    margin: auto;
+    padding: 10px;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    padding: 0.7rem 1rem;
     background-color: #71c9ce;
     border-radius: 5px;
     cursor: pointer;

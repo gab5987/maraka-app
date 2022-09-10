@@ -4,10 +4,8 @@ import { BrowserView, MobileView } from 'react-device-detect';
 
 import {
 	Nav,
-	NavLink,
 	Bars,
-	NavMenu,
-	NavBtn
+	NavBtn,
 } from './NavbarElements';
 
 import {Twirl as Hamburger} from 'hamburger-react'
@@ -33,11 +31,12 @@ class App extends Component {
       language: ptBR
     };
   }
-
 	changeLanguagePT = () => this.setState({ language:  ptBR });
 	changeLanguageEN = () => this.setState({ language:  enUS });
 
-  render(){
+	MobNav = () => { return <h1>jshhjdsvfhg</h1> }
+
+  render(){ console.log(this.state.hamburgerState)
     return (
       <div className="App">
 				<BrowserView>
@@ -45,13 +44,17 @@ class App extends Component {
 						<img src={logo} alt="Logo" />
 						<Bars />
 						<NavBtn>
-								<a onClick={this.changeLanguagePT} className="lang-button">pt-BR 🇧🇷 </a>
-								<a onClick={this.changeLanguageEN} className="lang-button">en-US 🇺🇸 </a>
+							<a onClick={this.changeLanguagePT} className="lang-button">Português 🇧🇷 </a>
+							<a onClick={this.changeLanguageEN} className="lang-button">English 🇺🇸 </a>
 						</NavBtn>
 					</Nav>
 				</BrowserView>
 				<MobileView>
-					<Hamburger onClick={() => this.state.hamburgerState = !this.state.hamburgerState } />
+					<Nav>
+						<img src={logo} alt="Logo" />
+						<a onClick={this.changeLanguagePT} className="lang-button-mobile">Português 🇧🇷 </a>
+						<a onClick={this.changeLanguageEN} className="lang-button-mobile">English 🇺🇸 </a>
+					</Nav>
 				</MobileView>
 				
         <Header 
