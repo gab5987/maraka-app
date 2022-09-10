@@ -1,32 +1,37 @@
 {
-    "bookButton": "Loren Ipsum ingles",
+    "bookButton": "Chat with us on WhatsApp",
 
+    "resume": {
+        "moreImages": "See more images",
+        "pageName": "About us",
+        "description": "Family owned and run for over 30 years, we offer accomodation in a safe and quiet place on the east of Santa Catarina Island."
+    },
     "location":{
         "pageName": "Our Location",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+        "description": "We are located 700 meters away from Barra da Lagoa beach, near Mole beach, Joaquina beach and Lagoa da Conceição."
     },
     "services": {
-        "pageName": "O que oferecemos?",
+        "pageName": "What we offer",
         "itens": [
             {
                 "name": "Free WI-FI",
                 "icon": "fa fa-wifi",
-                "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                "info": "High speed Wi-Fi with 500 Mbps."
             },
             {
                 "name": "Parking",
                 "icon": "fa fa-car",
-                "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                "info": "Enclosed parking with electronic gate."
             },
             {
-                "name": "Ar-condicionado",
+                "name": "Air-conditioning",
                 "icon": "fa fa-snowflake-o",
-                "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                "info": "Split Air-conditioning in all units."
             },
             {
                 "name": "Smart-TV",
                 "icon": "fa fa-television",
-                "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                "info": "Full HD smart tvs with connectivity to Netflix, Youtube, among others."
             }
         ]
     }

@@ -5,7 +5,7 @@ import { BrowserView, MobileView } from 'react-device-detect';
 export default function Header(props) {
   var depName = props.resumeInfo.depShortName;
   var bookButton = props.resumeLangDeps.bookButton;
-  const wpbtn = `http://wa.me/${props.resumeInfo.telNumber}?text=${props.resumeInfo.wpText}`
+  const wpbtn = `http://wa.me/${props.resumeInfo.telNumber}`
 
   return (
       <div className="header-container">

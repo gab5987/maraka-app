@@ -1,35 +1,37 @@
 {
-    "bookButton": "Loren Ipsum",
+    "bookButton": "Conversar conosco no WhatsApp",
+
     "resume": {
-        "pageName": "Lorem",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+        "moreImages": "Ver mais fotos",
+        "pageName": "Sobre nós",
+        "description": "Hospedagem em ambiente seguro, tranquilo e familiar em Florianópolis."
     },
     "location":{
         "pageName": "Nossa Localização",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+        "description": "Estamos localizados a cerca de 700m metros da praia da Barra da Lagoa, no leste da ilha, próximos da Praia Mole, Praia da Joaquina e Lagoa da Conceição."
     },
     "services": {
-        "pageName": "O que oferecemos?",
+        "pageName": "O que oferecemos",
         "itens": [
             {
                 "name": "WI-FI",
                 "icon": "fa fa-wifi",
-                "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                "info": "Internet Wi-Fi de alta velocidade com 500 Mbps."
             },
             {
                 "name": "Estacionamento",
                 "icon": "fa fa-car",
-                "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                "info": "Estacionamento privativo, fechado com portão eletrônico."
             },
             {
                 "name": "Ar-condicionado",
                 "icon": "fa fa-snowflake-o",
-                "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                "info": "Todos os apartamentos contam com ar condicionado split."
             },
             {
                 "name": "Smart-TV",
                 "icon": "fa fa-television",
-                "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                "info": "Tv full hd com conectividade Wi-Fi podendo acessar Netflix, YouTube, dentre outros."
             }
         ]
     }
