@@ -25,8 +25,8 @@ export default function Footer(props) {
           </div>
           <div className="my-stack support">
             <h1>Contato</h1>
-            <a href={contact.phone}>+55 (48) 9 8840-1390 </a>
-            <a href={contact.email}> pousadamaraka@gmail.com </a>
+            <a href={contact.phone}> Telefone </a>
+            <a href={contact.email}> E-Mail </a>
           </div>
         </div>
         <div className="social-media">
