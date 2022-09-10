@@ -1,6 +1,6 @@
 .footer {
   width: 100%;
-  min-height: 250px;
+  min-height: 200px;
   max-height: 250px;
   background-color: #cbf1f5;
   display: flex;
@@ -38,7 +38,7 @@ h1 {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
-  padding: 2% 2%;
+  padding: 1% 1%;
   flex: 1;
   font-size: 35px;
 }

@@ -25,9 +25,7 @@ export default function Footer(props) {
             <a>Support Center ?</a>
           </div>
           <div className="my-stack information">
-            <h1>Lorem Ipsum</h1>
-            <a>Lorem</a>
-            <a>Ipsum</a>
+
           </div>
         </div>
         <div className="social-media">
