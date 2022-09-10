@@ -6,11 +6,27 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
     },
     "services": {
-        "pageName": "Services",
+        "pageName": "O que oferecemos?",
         "itens": [
             {
-                "name": "",
-                "icon": ""
+                "name": "Free WI-FI",
+                "icon": "fa fa-wifi",
+                "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            },
+            {
+                "name": "Parking",
+                "icon": "fa fa-car",
+                "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            },
+            {
+                "name": "Ar-condicionado",
+                "icon": "fa fa-snowflake-o",
+                "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            },
+            {
+                "name": "Smart-TV",
+                "icon": "fa fa-television",
+                "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
             }
         ]
     }
