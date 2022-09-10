@@ -67,7 +67,7 @@ class App extends Component {
 					resumeLangDeps = {this.state.language.location}
 				/>
 				<Footer
-					resumeSocialMedia = {appData.socialMedia}
+					resumeInfo = {appData}
 				/>
       </div>
     );
