@@ -10,6 +10,10 @@ import {
 import { TbBrandBooking } from "react-icons/tb";
 
 export default function Footer(props) {
+  const contact = {
+    email: `mailto:${props.resumeInfo.info.email}`,
+    phone: `tel:${props.resumeInfo.info.telNumber}`
+  }
   return (
     <div> <bookingIcon />
       <div className="footer">
@@ -20,12 +24,9 @@ export default function Footer(props) {
             <a href={props.resumeInfo.footNotes.googleTravel} target="_blank">Google travel</a>
           </div>
           <div className="my-stack support">
-            <h1>Lorem Ipsum</h1>
-            <a>FAQ's ??</a>
-            <a>Support Center ?</a>
-          </div>
-          <div className="my-stack information">
-
+            <h1>Contato</h1>
+            <a href={contact.phone}>+55 (48) 9 8840-1390 </a>
+            <a href={contact.email}> pousadamaraka@gmail.com </a>
           </div>
         </div>
         <div className="social-media">
