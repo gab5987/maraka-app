@@ -1,7 +1,8 @@
 {
     "info":{
         "depShortName": "Pousada Maraká",
-        "telNumber": "5548998150288"
+        "telNumber": "5548998150288",
+        "email": "pousadamaraka@gmail.com"
     },
     "socialMedia": {
         "facebook": "https://www.facebook.com/pousadamaraka/",
@@ -9,5 +10,9 @@
         "bookingCom": "https://www.booking.com/Share-K2qo0A",
         "airbnb": "https://www.airbnb.com/rooms/24412652?guests=1&adults=1&s=67&unique_share_id=3fbbe540-8e2a-41f0-ba8f-79c8f0ff4dfd",
         "tripAdvisor": "https://www.tripadvisor.com/Hotel_Review-g303576-d5231012-Reviews-Pousada_Maraka-Florianopolis_State_of_Santa_Catarina.html?m=19905"
+    },
+    "footNotes": {
+        "tripAdvisorWhatToDo": "https://www.tripadvisor.com/Attractions-g303576-Activities-Florianopolis_State_of_Santa_Catarina.html",
+        "googleTravel": "https://www.google.com/travel/things-to-do?g2lb=2502548,2503771,2503781,4258168,4270442,4284970,4291517,4306835,4597339,4703207,4718358,4723331,4757164,4790928,4809518,4814050,4816977,4826689,4828448&hl=en-BR&gl=br&cs=1&ssta=1&dest_mid=/g/11bc6xlppd&dest_state_type=main&dest_src=ts&sa=X&ved=2ahUKEwiimZHXpIv6AhUtppUCHR6yBIgQuL0BegQIBBAy"
     }
 }
