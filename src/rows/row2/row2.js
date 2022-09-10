@@ -28,7 +28,7 @@ export default function Location(props){
       <BrowserView>
         <div className="row2-container">
             <div className="column-row2-column1">
-                <h1> {props.resumeLangDeps.pageName} </h1>
+                <h1> {props.resumeLangDeps.pageName} </h1> <br/>
                 <p> {props.resumeLangDeps.description} </p>
             </div>
             <RenderMap/>
@@ -38,7 +38,7 @@ export default function Location(props){
       <MobileView>
         <div className="row2-container">
             <div className="column-row2-column1">
-                <h1> {props.resumeLangDeps.pageName} </h1>
+                <h1> {props.resumeLangDeps.pageName} </h1> <br/>
                 <p> {props.resumeLangDeps.description} </p>
                 <br/>
                 <RenderMap/>
