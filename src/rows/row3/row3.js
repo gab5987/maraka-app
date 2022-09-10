@@ -1,6 +1,7 @@
 import "./row3.css";
 import React from "react";
-import { FaCocktail, FaHiking, FaShuttleVan, FaBeer } from 'react-icons/fa';
+import 'font-awesome/css/font-awesome.min.css';
+
 
 export default function Services(props){
     var services = props.resumeInfo;
@@ -12,12 +13,12 @@ export default function Services(props){
                 <h1> {services.pageName} </h1>
             </div>
                 <div className="services-center">
-                    {itens.map((item, index) => {
+                    {itens.map((Item, index) => {
                         return (
                             <article key={index} className="service">
-                                <span>{ <FaCocktail/> }</span>
-                                <h6>{item.name}</h6>
-                                <p>{item.info}</p>
+                                <span> <i className={Item.icon}></i> </span>
+                                <h6>{Item.name}</h6>
+                                <p>{Item.info}</p>
                             </article>
                         )
                     })}
@@ -25,9 +26,3 @@ export default function Services(props){
             </section>
     );
 }
-/*
-<div className="row3-container">
-            <div className="row3-title">
-                <h1> {services.pageName} </h1>
-            </div>
-*/

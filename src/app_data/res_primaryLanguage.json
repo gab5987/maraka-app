@@ -10,22 +10,22 @@
         "itens": [
             {
                 "name": "WI-FI",
-                "icon": "FaCocktail",
+                "icon": "fa fa-wifi",
                 "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
             },
             {
-                "name": "WI-FI",
-                "icon": "FaCocktail",
+                "name": "Estacionamento",
+                "icon": "fa fa-car",
                 "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
             },
             {
-                "name": "WI-FI",
-                "icon": "FaCocktail",
+                "name": "Ar-condicionado",
+                "icon": "fa fa-snowflake-o",
                 "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
             },
             {
-                "name": "WI-FI",
-                "icon": "FaCocktail",
+                "name": "Smart-TV",
+                "icon": "fa fa-television",
                 "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
             }
         ]
