@@ -37,7 +37,7 @@ export default function Row1(props) {
           <h1> { resume.pageName } </h1> <br/>
           <p> { resume.description } </p> <br/>
           <div className="button-wrapper">
-            <a href="#" className="book-button">
+            <a href="/moreimages" className="book-button">
               Se pa um botão?
             </a>
           </div>
