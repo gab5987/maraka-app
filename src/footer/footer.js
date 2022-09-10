@@ -30,18 +30,18 @@ export default function Footer(props) {
           </div>
         </div>
         <div className="social-media">
-          <a href={props.resumeInfo.socialMedia.facebook}> <FaFacebook /> </a>
-          <a href={props.resumeInfo.socialMedia.instagram}> <FaInstagram/> </a>
-          <a href={props.resumeInfo.socialMedia.tripAdvisor}> <FaTripadvisor /> </a>
-          <a href={props.resumeInfo.socialMedia.airbnb}> <FaAirbnb /> </a>
-          <a href={props.resumeInfo.socialMedia.bookingCom}> <TbBrandBooking /> </a>
+          <a href={props.resumeInfo.socialMedia.facebook} target="_blank"> <FaFacebook /> </a>
+          <a href={props.resumeInfo.socialMedia.instagram} target="_blank"> <FaInstagram/> </a>
+          <a href={props.resumeInfo.socialMedia.tripAdvisor} target="_blank"> <FaTripadvisor /> </a>
+          <a href={props.resumeInfo.socialMedia.airbnb} target="_blank"> <FaAirbnb /> </a>
+          <a href={props.resumeInfo.socialMedia.bookingCom} target="_blank"> <TbBrandBooking /> </a>
         </div>
       </div>
       <div className="copyright">
         <small>
-          Copyright © Gabriel Gonçalves Novalski
+          Copyright © Gabriel Gonçalves Novalski, 2022
         </small>
-        <a href="https://github.com/gab5987" style={{marginLeft: "10px"}}>
+        <a href="https://github.com/gab5987" target="_blank" style={{marginLeft: "10px"}}>
           <FaGithub/>
         </a>
       </div>
