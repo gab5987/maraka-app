@@ -35,11 +35,22 @@ const getImages = () => {
 const Imgs = () => {
   getImages();
   return (
-    <>
-      <AliceCarousel autoPlay autoPlayInterval="10000" mouseTracking items={rooms} />
-      <AliceCarousel autoPlay autoPlayInterval="10000" mouseTracking items={area} />
-      <AliceCarousel autoPlay autoPlayInterval="10000" mouseTracking items={out} />
-    </>
+    <div className='ima'>
+      <div className='sec1'> 
+        <h1> Fotos Apartamentos </h1>
+        <AliceCarousel autoPlay autoPlayInterval="10000" mouseTracking items={rooms} />
+      </div>
+
+      <div className='sec2'> 
+        <h1> Fotos Área de Lazer </h1>
+        <AliceCarousel autoPlay autoPlayInterval="10000" mouseTracking items={area} />
+      </div>
+
+      <div className='sec1'>
+        <h1> Fotos Exterior </h1>
+        <AliceCarousel autoPlay autoPlayInterval="10000" mouseTracking items={out} />
+      </div>
+    </div>
   );
 }
 export default Imgs

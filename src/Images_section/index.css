@@ -7,3 +7,30 @@
     width: 80%;
     height: 80%;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sec1 {
+    background-color: #cbf1f5;
+}
+
+.sec2 {
+    background-color: #e3fdfd;
+}
+
+
+.ima h1 {
+    padding-top: 2%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: var(--mainSpacing);
+    text-transform: capitalize;
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    }
