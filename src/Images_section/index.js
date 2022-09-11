@@ -23,7 +23,7 @@ const getImages = () => {
 const Imgs = () => {
   getImages();
   return (
-    <AliceCarousel autoPlay autoPlayInterval="5000" mouseTracking items={rooms} />
+    <AliceCarousel autoPlay autoPlayInterval="10000" mouseTracking items={rooms} />
   );
 }
 export default Imgs
