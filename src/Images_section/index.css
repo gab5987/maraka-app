@@ -1,5 +1,9 @@
 .imgContainer {
-    width: 100%;
-    height: 300px;
-    object-fit:scale-down
+    display: flex;
+    justify-content: center;
+}
+
+.imgContainer img {
+    width: 80%;
+    height: 80%;
 }

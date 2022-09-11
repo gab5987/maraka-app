@@ -4,19 +4,26 @@ import 'react-alice-carousel/lib/alice-carousel.css';
 import './index.css'
 
 const handleDragStart = (e) => e.preventDefault();
-const img1 = require("../app_data/images/ISR_1622.jpg");
-const img2 = require("../app_data/images/ISR_1624.jpg")
+const rooms = [];
 
-const items = [
-  <img src={img1} onDragStart={handleDragStart} role="presentation" />,
-  <img src={img2} onDragStart={handleDragStart} role="presentation" />,
-];
+function importAll(r) {
+  return r.keys().map(r);
+}
+
+const getImages = () => {
+  const imagesRooms = importAll(require.context('../app_data/images/units', false, /\.(png|jpe?g|svg)$/));
+
+  if(!rooms[0]){
+    for(let i in imagesRooms) {
+      rooms.push( <div className='imgContainer'> <img src={imagesRooms[i]} onDragStart={handleDragStart} role="presentation" /> </div> )
+    }
+  }
+}
 
 const Imgs = () => {
+  getImages();
   return (
-    <div className='imgContainer'>
-        <AliceCarousel autoPlay autoPlayInterval="5000" mouseTracking items={items} />
-    </div>
+    <AliceCarousel autoPlay autoPlayInterval="5000" mouseTracking items={rooms} />
   );
 }
 export default Imgs
