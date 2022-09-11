@@ -19,12 +19,12 @@ export default function Footer(props) {
       <div className="footer">
         <div className="mystacks">
           <div className="my-stack useful-links">
-            <h1>Sobre Florianópolis</h1>
+            <h1> {props.resumeLangDeps.foot1} </h1>
             <a href={props.resumeInfo.footNotes.tripAdvisorWhatToDo} target="_blank"> Blog TripAdvisor </a>
             <a href={props.resumeInfo.footNotes.googleTravel} target="_blank">Google travel</a>
           </div>
           <div className="my-stack support">
-            <h1>Contato</h1>
+            <h1> {props.resumeLangDeps.foot2} </h1>
             <a href={contact.phone}> Telefone </a>
             <a href={contact.email}> E-Mail </a>
           </div>

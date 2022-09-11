@@ -67,7 +67,7 @@ class App extends Component {
 					resumeLangDeps = {this.state.language.location}
 				/>
 				<Footer
-					resumeInfo = {appData}
+					resumeInfo = {appData} resumeLangDeps = {this.state.language.footNotes}
 				/>
       </div>
     );
