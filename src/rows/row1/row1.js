@@ -2,8 +2,8 @@ import "./row1.css";
 import Fade from "react-reveal/Fade";
 import { useState, useEffect } from "react";
 
-const photo1 = require("../../app_data/images/ISR_1622.jpg");
-const photo2 = require("../../app_data/images/ISR_1624.jpg");
+const photo1 = require("../../app_data/images/units/ISR_1622.jpg");
+const photo2 = require("../../app_data/images/units/ISR_1624.jpg");
 const photo3 = "https://cf.bstatic.com/xdata/images/hotel/max1024x768/345694569.jpg?k=712a3b5bc4c38ecab544d4c73e3b49d4d3d361052acadb26611f551b4eba277a&o=&hp=1";
 
 export default function Row1(props) {
