@@ -1,5 +1,4 @@
 import "./header.css";
-import Fade from "react-reveal/Fade";
 import { BrowserView, MobileView } from 'react-device-detect';
 
 export default function Header(props) {

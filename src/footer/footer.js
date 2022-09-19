@@ -7,6 +7,7 @@ import {
   FaTripadvisor,
   FaAirbnb,
 } from "react-icons/fa";
+
 import { TbBrandBooking } from "react-icons/tb";
 
 export default function Footer(props) {
@@ -14,6 +15,7 @@ export default function Footer(props) {
     email: `mailto:${props.resumeInfo.info.email}`,
     phone: `tel:${props.resumeInfo.info.telNumber}`
   }
+  
   return (
     <div> <bookingIcon />
       <div className="footer">
@@ -39,11 +41,8 @@ export default function Footer(props) {
       </div>
       <div className="copyright">
         <small>
-          Copyright © Gabriel Gonçalves Novalski, 2022
+          <a href="https://emp-site.vercel.app" target="_blank" style={{ textDecoration:'none', color:'#fff' }}>Copyright © Logical Tecnologia</a>
         </small>
-        <a href="https://github.com/gab5987" target="_blank" style={{marginLeft: "10px"}}>
-          <FaGithub/>
-        </a>
       </div>
     </div>
   );
