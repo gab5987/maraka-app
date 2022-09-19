@@ -41,7 +41,7 @@ export default function Footer(props) {
       </div>
       <div className="copyright">
         <small>
-          <a href="https://emp-site.vercel.app" target="_blank" style={{ textDecoration:'none', color:'#fff' }}>Copyright © Logical Tecnologia</a>
+          <a href="https://logical-tecnologia.vercel.app/index" target="_blank" style={{ textDecoration:'none', color:'#fff' }}>Copyright © Logical Tecnologia</a>
         </small>
       </div>
     </div>
