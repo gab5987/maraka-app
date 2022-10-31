@@ -8,7 +8,6 @@ import {
 	NavBtn,
 } from './NavbarElements';
 
-import {Twirl as Hamburger} from 'hamburger-react'
 import Row1 from "./rows/row1/row1";
 import Location from "./rows/row2/row2";
 import Services from "./rows/row3/row3";
@@ -34,9 +33,7 @@ class App extends Component {
 	changeLanguagePT = () => this.setState({ language:  ptBR });
 	changeLanguageEN = () => this.setState({ language:  enUS });
 
-	MobNav = () => { return <h1>jshhjdsvfhg</h1> }
-
-  render(){ console.log(this.state.hamburgerState)
+	render(){
     return (
       <div className="App">
 				<BrowserView>
@@ -57,18 +54,17 @@ class App extends Component {
 					</Nav>
 				</MobileView>
 				
-        <Header 
-          resumeInfo = {appData.info} 
-          resumeLangDeps = {this.state.language}
-        />
-				<Row1 resumeInfo={this.state.language.resume}/>
-				<Services resumeInfo={this.state.language.services}/>
-				<Location
-					resumeLangDeps = {this.state.language.location}
-				/>
-				<Footer
-					resumeInfo = {appData} resumeLangDeps = {this.state.language.footNotes}
-				/>
+			<Header 
+				resumeInfo = {appData.info} 
+				resumeLangDeps = {this.state.language}
+			/>
+			<Row1 resumeInfo={this.state.language.resume}/>
+			<Services resumeInfo={this.state.language.services}/>
+			<Location resumeLangDeps = {this.state.language.location} />
+			<Footer 
+				resumeInfo = {appData} 
+				resumeLangDeps = {this.state.language.footNotes}
+			/>
       </div>
     );
   }
